@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
 def train():
-    # Load dataset
+    # Load datase
     print("Loading breast cancer dataset...")
     data = load_breast_cancer()
     X_train, X_test, y_train, y_test = train_test_split(
