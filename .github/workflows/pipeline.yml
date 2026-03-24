@@ -42,6 +42,7 @@ jobs:
           path: |
             model_info.txt
             mlruns/
+            *.db
           if-no-files-found: ignore
 
   deploy:
